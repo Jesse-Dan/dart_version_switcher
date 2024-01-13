@@ -1,18 +1,19 @@
 name: dart_version_switcher
+
 version: 1.0.1
 description: A Dart package for switching Dart versions using Homebrew.
+repository: https://github.com/Jesse-Dan/dart_version_switcher
+homepage: https://github.com/Jesse-Dan/dart_version_switcher
 
 executables:
   dart_version_switcher: dart_version_switcher.dart
 
-repository: https://github.com/Jesse-Dan
 
 environment:
   sdk: ^3.2.3
 
-# Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
+  path: ^1.8.0
 
 dev_dependencies:
   lints: ^2.1.0
